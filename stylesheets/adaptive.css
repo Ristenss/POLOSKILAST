@@ -1,0 +1,28 @@
+@media (max-width: 900px) {
+  .nav {
+    gap: 18px;
+  }
+  .nav a {
+    font-size: 20px;
+  }
+  .header-logo img {
+    width: 72px;
+    height: 35px;
+  }
+  .letter {
+    font-size: clamp(60px, 18vw, 150px);
+  }
+  .podval {
+    font-size: 20px;
+    padding: 0 20px 18px;
+  }
+  .footer-logo {
+    width: 92px;
+    height: 34px;
+  }
+}
+.burger-btn,
+.mobile-close {
+  display: none;
+}
+
